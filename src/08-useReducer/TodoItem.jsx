@@ -17,12 +17,12 @@ export const TodoItem = ({
         role='button'
         className={`align-self-center ${
           done ? 'text-decoration-line-through' : ''
-        }`}
+        }`} aria-label='span'
         onClick={() => onToggleTodo(id)}
       >
         {description}
       </span>
-      <button className='btn btn-danger' onClick={() => onDeleteTodo(id)}>
+      <button className='btn btn-danger' data-testid='deleteButton' onClick={() => onDeleteTodo(id)}>
         Borrar
       </button>
     </li>
