@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
 export const useFetchAllQuotes = (url) => {
-  const [stateQuotes, setStateQuotes] = useState({
-    quotes: []
-  });
+  const [stateQuotes, setStateQuotes] = useState([]);
 
   const getQuotes = async () => {
     const resp = await fetch(url);
@@ -15,5 +13,5 @@ export const useFetchAllQuotes = (url) => {
     getQuotes();
   }, []);
 
-  return { allQuotes: stateQuotes.quotes };
+  return { allQuotes: stateQuotes };
 };

@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <TodoItem/> Debe de hacer match con el snapshot 1`] = `
+<div>
+  <li
+    class="list-group-item d-flex justify-content-between"
+    id="12345"
+  >
+    <span
+      aria-label="span"
+      class="align-self-center "
+      role="button"
+    >
+      Esta es una descripcion por defecto
+    </span>
+    <button
+      class="btn btn-danger"
+      data-testid="deleteButton"
+    >
+      Borrar
+    </button>
+  </li>
+</div>
+`;

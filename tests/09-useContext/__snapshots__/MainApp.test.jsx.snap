@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <MainApp/> Debe de hacer match con el snapshot 1`] = `
+<div>
+  <nav
+    class="navbar navbar-expand-lg navbar-dark bg-dark rounded-3"
+  >
+    <div
+      class="container-fluid"
+    >
+      <a
+        class="navbar-brand"
+        href="/"
+      >
+        useContext
+      </a>
+      <div
+        class="collapse navbar-collapse"
+        id="navbarNav"
+      >
+        <ul
+          class="navbar-nav"
+        >
+          <a
+            aria-current="page"
+            class="nav-link active"
+            href="/"
+          >
+            Home
+          </a>
+          <a
+            class="nav-link "
+            href="/about"
+          >
+            About
+          </a>
+          <a
+            class="nav-link "
+            href="/login"
+          >
+            Login
+          </a>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <hr />
+  <h1>
+    HomePage 
+    <small />
+  </h1>
+  <hr />
+  <pre
+    aria-label="pre"
+  />
+</div>
+`;
